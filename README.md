@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains a complete implementation of the Internet Computer ICRC token standards (ICRC-1, ICRC-2, ICRC-3, and ICRC-4) written in Motoko. This implementation can be forked and customized to create your own fungible token on the Internet Computer.
+This repository contains a complete implementation of the Internet Computer ICRC token standards (ICRC-1, ICRC-2, ICRC-3, and ICRC-4) written in Motoko. This implementation can be forked and customized to create your own token on the Internet Computer.
 
 ## Features
 
@@ -27,9 +27,10 @@ This repository contains a complete implementation of the Internet Computer ICRC
    git clone https://github.com/Quantum-Leap-Labs-Inc/ICRC-Token.git
    ```
 
-2. Deploy locally for testing:
+2. Navigate and deploy locally for testing:
 
    ```bash
+   cd src/token_backend
    bash runner.sh
    ```
 
@@ -37,7 +38,7 @@ This repository contains a complete implementation of the Internet Computer ICRC
 
 To customize the token for your own use:
 
-1. Modify the token parameters in `src/icrc-1_token-backend.mo` or in the deployment script.
+1. Modify the token parameters in `src/token-backend/Token.mo` or in the deployment script.
 2. Key parameters to consider changing:
    - Token name
    - Token symbol
