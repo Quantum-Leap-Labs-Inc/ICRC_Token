@@ -1,14 +1,14 @@
 {
   "canisters": {
-    "icrc-1_token-backend": {
-      "main": "src/icrc-1_token-backend/main.mo",
+    "token": {
+      "main": "src/token_backend/token.mo",
       "type": "motoko"
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
