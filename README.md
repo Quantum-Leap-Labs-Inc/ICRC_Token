@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains a complete implementation of the Internet Computer ICRC token standards (ICRC-1, ICRC-2, ICRC-3, and ICRC-4) written in Motoko. This implementation can be easily forked and customized to create your own fungible token on the Internet Computer.
+This repository contains a complete implementation of the Internet Computer ICRC token standards (ICRC-1, ICRC-2, ICRC-3, and ICRC-4) written in Motoko. This implementation can be forked and customized to create your own fungible token on the Internet Computer.
 
 ## Features
 
